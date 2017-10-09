@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a78cb887-f460-410a-bd60-351b7b671ddb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://outside" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Process.xsd" MetadataType="Schema" ID="51f582ba-a822-4703-86ea-ac4d4287b151" SourceId="1" SourceUrl="http://outside/Process.svc?xsd=xsd1" />
+    <MetadataFile FileName="Process1.xsd" MetadataType="Schema" ID="9accf928-2134-48f3-ac9d-0b33f859fa34" SourceId="1" SourceUrl="http://outside/Process.svc?xsd=xsd2" />
+    <MetadataFile FileName="Process.disco" MetadataType="Disco" ID="786bb11c-b5a1-493c-b5f7-1e1e6cfc52fb" SourceId="1" SourceUrl="http://outside/Process.svc?disco" />
+    <MetadataFile FileName="ExternalService.wsdl" MetadataType="Wsdl" ID="caaf6526-1895-4490-a5c7-34c360e14f60" SourceId="1" SourceUrl="http://outside/Process.svc?wsdl" />
+    <MetadataFile FileName="Process.wsdl" MetadataType="Wsdl" ID="3826c592-c162-4bde-a260-2321f13c5f10" SourceId="1" SourceUrl="http://outside/Process.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Process2.xsd" MetadataType="Schema" ID="f4a93078-d43a-4f93-82d2-cb8a1391584f" SourceId="1" SourceUrl="http://outside/Process.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
